@@ -1,0 +1,145 @@
+hr {
+  width: 150;          /* custom length: try px, %, rem, etc. */
+  height: 2px;          /* thickness */
+  background-color: #333; /* line color */
+  border: none;         /* remove default border */
+   /* optional: shift it right */
+   margin-bottom: 15px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto; /* centers the container */
+}
+
+.profile-details h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.profile-details h3{
+  margin: 3px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px; /* space between heading and paragraph */
+}
+
+.profile-section h4 {
+  margin: 0;
+  min-width: 100px; /* reserve space for the heading */
+}
+
+.profile-section .introduction {
+  margin: 0;
+  max-width: 1400px;
+  margin-bottom: 10px;
+}
+
+.experience-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+    margin-bottom: 20px;
+}
+
+.experience-section h4 {
+  margin: 0;
+  min-width: 100px;
+  margin-top: 5px;
+}
+
+.experience-content {
+  margin: 0;
+  max-width: 1100px;
+  margin-top: 5px;
+}
+
+.experience-content ul {
+  padding-left: 0; /* reset default list padding */
+  margin: 0;
+  list-style-position: inside; /* aligns bullet with text */
+}
+
+.experience-content ul li:last-child {
+  margin-bottom: -5px;
+}
+
+.experience1 {
+  padding-left: 20px; /* Optional: gives bullets room */
+  margin-top: 5px;
+}
+
+.experience1 ul li:last-child {
+  margin-bottom: 5px;
+}
+
+.experience2 {
+  padding-left: 20px; /* Optional: gives bullets room */
+  margin-top: 5px;
+}
+.education-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px; /* space between heading and paragraph */
+}
+
+.education-section h3 {
+  margin: 0;
+  margin-bottom: 5px;
+  min-width: 100px;
+}
+
+.education-content p {
+  margin: 2px 0;
+  max-width: 800px;
+}
+
+.education-content p:last-of-type {
+  margin-bottom: 5px; /* adjust to desired spacing */
+}
+
+.skills-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 35px; /* space between heading and paragraph */
+}
+.skills-section h3 {
+  margin: 0;
+
+  min-width: 100px; /* reserve space for the heading */
+}
+
+.skills-content p{
+  margin: 2px 0;
+  max-width: 800px;
+}
+
+.seminar {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.seminar h3 {
+    margin: 0;
+    min-width: 100px; /* reserve space for the heading */
+}
+
+.seminar ul {
+    padding-left: 0; /* reset default list padding */
+    margin: 0;
+    list-style-position: inside; /* aligns bullet with text */
+}
+
+footer {
+  background-color: rgb(75, 75, 75);
+  color: white;
+  text-align: center;
+  padding: .5em 1px;
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 1400px;
+}
