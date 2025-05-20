@@ -43,7 +43,7 @@ hr {
   display: flex;
   align-items: flex-start;
   gap: 60px;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .experience-section h4 {
@@ -71,7 +71,6 @@ hr {
 .experience1 {
   padding-left: 20px; /* Optional: gives bullets room */
   margin-top: 5px;
-  font-size: 1rem;
 }
 
 .experience1 ul li:last-child {
@@ -81,7 +80,6 @@ hr {
 .experience2 {
   padding-left: 20px; /* Optional: gives bullets room */
   margin-top: 5px;
-  font-size: 1rem;
 }
 .education-section {
   display: flex;
