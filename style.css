@@ -8,7 +8,7 @@ hr {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1450px;
   margin: 0 auto; /* centers the container */
   user-select: none;
 }
@@ -44,18 +44,17 @@ hr {
   align-items: flex-start;
   gap: 60px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .experience-section h4 {
   margin: 0;
   min-width: 100px;
-  margin-top: 5px;
 }
 
 .experience-content {
   margin: 0;
   max-width: 1100px;
-  margin-top: 5px;
 }
 
 .experience-content ul {
@@ -64,32 +63,30 @@ hr {
   list-style-position: inside; /* aligns bullet with text */
 }
 
-.experience-content ul li:last-child {
-  margin-bottom: -5px;
-}
-
 .experience1 {
   padding-left: 20px; /* Optional: gives bullets room */
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
-.experience1 ul li:last-child {
-  margin-bottom: 5px;
+.experience-list > li:nth-of-type(2){
+  margin-top: 15px;
 }
 
 .experience2 {
   padding-left: 20px; /* Optional: gives bullets room */
-  margin-top: 5px;
+  margin-top: 10px;
 }
+
 .education-section {
   display: flex;
   align-items: flex-start;
   gap: 60px; /* space between heading and paragraph */
+  margin-bottom: 20px; /* adjust to desired spacing */
+  margin-top: 20px;
 }
 
 .education-section h3 {
   margin: 0;
-  margin-bottom: 5px;
   min-width: 100px;
 }
 
@@ -98,18 +95,15 @@ hr {
   max-width: 800px;
 }
 
-.education-content p:last-of-type {
-  margin-bottom: 5px; /* adjust to desired spacing */
-}
-
 .skills-section {
   display: flex;
   align-items: flex-start;
   gap: 35px; /* space between heading and paragraph */
+  margin-bottom: 20px; /* adjust to desired spacing */
+  margin-top: 20px;
 }
 .skills-section h3 {
   margin: 0;
-
   min-width: 100px; /* reserve space for the heading */
 }
 
@@ -122,6 +116,8 @@ hr {
   display: flex;
   align-items: flex-start;
   gap: 60px;
+  margin-bottom: 20px; /* adjust to desired spacing */
+  margin-top: 20px;
 }
 
 .seminar h3 {
@@ -141,6 +137,5 @@ footer {
   text-align: center;
   padding: .5em 1px;
   margin: 0 auto;
-  margin-top: 30px;
-  max-width: 1400px;
+  max-width: 1450px;
 }
