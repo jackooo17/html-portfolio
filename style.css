@@ -10,6 +10,7 @@ hr {
 .container {
   max-width: 1400px;
   margin: 0 auto; /* centers the container */
+  user-select: none;
 }
 
 .profile-details h1 {
@@ -70,6 +71,7 @@ hr {
 .experience1 {
   padding-left: 20px; /* Optional: gives bullets room */
   margin-top: 5px;
+  font-size: 1rem;
 }
 
 .experience1 ul li:last-child {
@@ -79,6 +81,7 @@ hr {
 .experience2 {
   padding-left: 20px; /* Optional: gives bullets room */
   margin-top: 5px;
+  font-size: 1rem;
 }
 .education-section {
   display: flex;
